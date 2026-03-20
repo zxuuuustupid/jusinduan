@@ -1,0 +1,9 @@
+{
+  "build": {
+    "env": {
+      "JEKYLL_ENV": "production"
+    }
+  },
+  "framework": "jekyll",
+  "outputDirectory": "_site"
+}
