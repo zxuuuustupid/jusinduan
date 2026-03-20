@@ -4,8 +4,8 @@ pages:
 - name: Home
   url: /
 - name: Home (Layout 2)
-  url: /index_layout2/
+  url: /index_layout2.html
 - name: Publications
-  url: /publications/
+  url: /publications.html
 - name: Showcase
-  url: /showcase/
+  url: /showcase.html
