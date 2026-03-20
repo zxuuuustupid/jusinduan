@@ -17,6 +17,7 @@ baseurl: "/academic-homepage" # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
+permalink: /:name/
 plugins:
   - jekyll-email-protect
 
