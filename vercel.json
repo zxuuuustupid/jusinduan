@@ -1,9 +1,18 @@
 {
   "build": {
-    "env": {
-      "JEKYLL_ENV": "production"
-    }
+    "command": "bundle install && bundle exec jekyll build",
+    "outputDirectory": "_site"
   },
-  "framework": "jekyll",
-  "outputDirectory": "_site"
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
+  ]
 }

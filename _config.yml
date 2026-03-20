@@ -41,3 +41,21 @@ collections:
   - publications
   - news
   - showcase
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      type: publications
+    values:
+      layout: default
+  - scope:
+      type: news
+    values:
+      layout: default
+  - scope:
+      type: showcase
+    values:
+      layout: default
