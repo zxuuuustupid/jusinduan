@@ -1,7 +1,7 @@
 ---
 title:          "Open-Set Fault Diagnosis Using CLIP with Forward-Reverse Reasoning"
 date:           2026-01-01 00:01:00 +0800
-selected:       false
+selected:       true
 pub:            "Submitted to Computers in Industry (COMPUT IND, CAS Q1)"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-warning">Minor Revision</span>'
 pub_date:       "2026"

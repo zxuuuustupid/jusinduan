@@ -11,6 +11,6 @@ authors:
   - R. Liu
   - Zhixu Duan
   - et al.
-cover: /assets/images/covers/cover2.jpg
+cover: /assets/images/covers/bien.png
 links:
 ---

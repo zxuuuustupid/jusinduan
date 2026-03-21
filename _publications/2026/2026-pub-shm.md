@@ -3,7 +3,7 @@ title:          "Unified Health Domain Relation Learning for Train Transmission 
 date:           2026-01-26 00:01:00 +0800
 selected:       true
 pub:            "Structural Health Monitoring (SHM, CAS Q2)"
-pub_last:       ' <span class="badge badge-pill badge-publication badge-info">Co-first Author</span>'
+pub_last:       
 pub_date:       "2026"
 abstract: >-
   A unified health-domain relation learning approach enhances fault detection under complex operating conditions.
