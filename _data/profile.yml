@@ -1,11 +1,11 @@
 primary_name: "Zhixu Duan"
-secondary_name: "段之续"
+secondary_name: "Jusin"
 navbar_name: "Zhixu Duan"
 
 positions:
 - name: B.S. Student
 - name: School of Mechanical and Electrical Engineering, UESTC
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+  logo: /assets/images/badges/UESTC.png  # Logo is optional
 
 
 email: "zhixuduan@std.uestc.edu.cn"
@@ -29,27 +29,27 @@ short_bio: >-
     My research interests focus on AI4Reliability including zero/few-shot learning, transfer learning, and LLM.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
+portrait_url: /assets/images/photos/profile.jpg
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  Kato Megumi！
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
+- name: University of Electronic Science and Technology of China
+  logo: /assets/images/badges/UESTC.png
   position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
-
-# experience:
+    School of Mechanical and Electrical Engineering <br/>
+    B.S. Student
+  date: Sep. 2023 - Jul. 2027
 # - name: Peking University
 #   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+#   position: B.S. in Computer Science
+#   date: Sep. 2023 - Jul. 2027
+
+experience:
+- name: Shanghai Jiaotong University
+  logo: /assets/images/badges/SJTU.png
+  position: Research Intern
+  date: Nov. 2025 - Present
 
 awards:
 - name: National Scholarship
