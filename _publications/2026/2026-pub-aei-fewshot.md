@@ -1,6 +1,6 @@
 ---
 title:          "Reinforcing Cross-Domain Few-Shot Fault Diagnosis of Train Transmission Systems via Reducing Intra-Class and Maximizing Inter-Class Variations"
-date:           2026-01-01 00:01:00 +0800
+date:           2026-01-15 00:01:00 +0800
 selected:       false
 pub:            "Submitted to Advanced Engineering Informatics (AEI, CAS Q1)"
 pub_post:       'Under Review.'

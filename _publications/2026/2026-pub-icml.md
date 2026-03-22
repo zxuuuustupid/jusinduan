@@ -1,6 +1,6 @@
 ---
 title:          "IndustryCode: A Benchmark for Industry Code Generation"
-date:           2026-01-01 00:01:00 +0800
+date:           2026-01-11 00:01:00 +0800
 selected:       false
 pub:            "Submitted to ICML 2026"
 pub_post:       'Under Review.'

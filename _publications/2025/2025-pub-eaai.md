@@ -1,6 +1,6 @@
 ---
 title:          "Pseudo-fault data enhanced relation network for fault detection and localization in train transmission systems"
-date:           2025-01-01 00:01:00 +0800
+date:           2025-01-06 00:01:00 +0800
 selected:       true
 pub:            "Engineering Applications of Artificial Intelligence (EAAI, CAS Q1)"
 pub_date:       "2025"
