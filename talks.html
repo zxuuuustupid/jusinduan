@@ -1,0 +1,54 @@
+---
+layout: default
+title : Talk/Report
+navbar_title: Talk/Report
+body_attr: >-
+  data-spy="scroll" data-target="#navbar-year" data-offset="100"
+---
+
+{% assign talks_by_year = site.talks | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
+
+<div class="row">
+    <div class="col-12 col-lg-10">
+        {% for year in talks_by_year %}
+        {% assign num_talks = year.items | size %}
+        <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
+        <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
+            {% for item in year.items %}
+                <div class="p-3 {% unless forloop.last %}border-bottom border-gray{% endunless %}">
+                    <div class="mb-1">
+                        <strong>{{ item.title }}</strong>
+                        {% if item.type %}
+                        <span class="badge badge-primary ml-2">{{ item.type }}</span>
+                        {% endif %}
+                    </div>
+                    {% if item.venue %}
+                    <div class="text-muted small">
+                        <i class="fas fa-university"></i> {{ item.venue }}
+                    </div>
+                    {% endif %}
+                    <div class="text-muted small">
+                        <i class="fas fa-calendar-alt"></i> {{ item.date | date: "%B %d, %Y" }}
+                        {% if item.location %}
+                        <span class="ml-2"><i class="fas fa-map-marker-alt"></i> {{ item.location }}</span>
+                        {% endif %}
+                    </div>
+                    {% if item.excerpt %}
+                    <div class="mt-2 small">{{ item.excerpt }}</div>
+                    {% endif %}
+                    <div class="mt-2">{{ item.content }}</div>
+                </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="col-2 d-none d-lg-block">
+        <div id="navbar-year" class="nav nav-pills flex-column sticky-top" style="top: 80px">
+            {% for year in talks_by_year %}
+            <a class="nav-link d-block" href="#year-{{ year.name }}">{{ year.name }}</a>
+            {% endfor %}
+        </div>
+    </div>
+
+</div>

@@ -7,5 +7,7 @@ pages:
   url: /index.html
 - name: Publications
   url: /publications.html
+- name: Talk/Report
+  url: /talks.html
 - name: Showcase
   url: /showcase.html
