@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  jekyll:
+    build: .
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/srv/jekyll
+    environment:
+      - JEKYLL_ENV=development
+    # Windows 用户添加这个来禁用文件监视
+    command: ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--port", "4000", "--no-watch"]
