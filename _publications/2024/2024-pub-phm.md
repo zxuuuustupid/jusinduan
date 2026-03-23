@@ -14,5 +14,5 @@ authors:
   - H.-Z. Huang
 cover: /assets/images/covers/PHM.png
 links:
-  Paper: http://zxuuuustupid.github.io/files/paper1.pdf
+  Paper: /assets/files/paper1.pdf
 ---

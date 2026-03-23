@@ -13,5 +13,5 @@ authors:
   - H.-Z. Huang
 cover: /assets/images/covers/UHDRL.png
 links:
-  Paper: http://zxuuuustupid.github.io/files/paper3.pdf
+  Paper: /assets/files/paper3.pdf
 ---

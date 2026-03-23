@@ -11,3 +11,6 @@ pages:
   url: /talks.html
 - name: Showcase
   url: /showcase.html
+- name: UESTC-IA
+  url: https://uestc-ia.github.io
+  external: true
