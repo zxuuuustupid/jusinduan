@@ -1,23 +1,34 @@
 ---
 show: true
-width: 8
-date: 2024-01-12 00:01:00 +0800
+width: 6
+date: 2024-02-01 00:01:00 +0800
 ---
+<div>
+  <img data-src="{{ 'assets/images/covers/cover1.jpg' | relative_url }}" class="lazy w-100 rounded-xl" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
 
-<div class="p-4">
-    <h2>Welcome to Showcase!</h2>
-    <hr />
-    <p>
-        <code>Showcase</code> is a page where you can show off almost anything you want. It can be the photo of your pets, your favorite books, your favorite projects, or anything else you want to show to the world.
-    </p>
-    <p>
-        You can create a new showcase item by creating a new file in the <code>_showcase</code> folder. It gives you the highest flexibility to customize the item using any HTML code.
-    </p>
-    <p>
-        Cards are ordered by the <code>date</code> field in the front matter in descending order. The <code>width</code> field is used to determine the width of the card, ranging from 1 to 12.
-        Layout is done by the <a href="https://masonry.desandro.com/" target="_blank">Masonry</a> library.
-    </p>
-    <p>
-        For a tidy layout, it is recommended to set the width of the cards to be either multiple of 3 or multiple of 4 for all cards, except for small badges that do not take up much space (width=1).
-    </p>
+  <div class="card-img-overlay d-flex flex-column justify-content-center" style="overflow: auto; background: linear-gradient(135deg, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.95) 100%);">
+    <h4 class="card-title font-weight-bold mb-3">Life Beyond Research</h4>
+    <div class="row mx-0">
+      <div class="col-6 mb-3">
+        <span class="h2 mb-0">🎌</span><br>
+        <div class="font-weight-bold" style="font-size: 1.1rem;">Anime</div>
+        <div style="font-size: 0.95rem;">If it's good, I watched it</div>
+      </div>
+      <div class="col-6 mb-3">
+        <span class="h2 mb-0">🎵</span><br>
+        <div class="font-weight-bold" style="font-size: 1.1rem;">Music</div>
+        <div style="font-size: 0.95rem;">My playlists have playlists</div>
+      </div>
+      <div class="col-6 mb-3">
+        <span class="h2 mb-0">🏃</span><br>
+        <div class="font-weight-bold" style="font-size: 1.1rem;">Running</div>
+        <div style="font-size: 0.95rem;">For the post-run snacks</div>
+      </div>
+      <div class="col-6 mb-3">
+        <span class="h2 mb-0">🎮</span><br>
+        <div class="font-weight-bold" style="font-size: 1.1rem;">Gaming</div>
+        <div style="font-size: 0.95rem;">PC / Switch / Mobile</div>
+      </div>
+    </div>
+  </div>
 </div>
