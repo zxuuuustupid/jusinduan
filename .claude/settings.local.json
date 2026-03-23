@@ -3,7 +3,9 @@
     "allow": [
       "Bash(docker-compose up:*)",
       "WebFetch(domain:uestc-ia.github.io)",
-      "Bash(gh repo:*)"
+      "Bash(gh repo:*)",
+      "WebSearch",
+      "WebFetch(domain:music.163.com)"
     ]
   }
 }
