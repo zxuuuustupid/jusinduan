@@ -37,7 +37,11 @@ body_attr: >-
                     <div class="mt-2 small">{{ item.excerpt }}</div>
                     {% endif %}
                     <div class="mt-2">
+                        {% if item.external_url %}
+                        <a href="{{ item.external_url }}" target="_blank" class="text-primary">[Access Report]</a>
+                        {% elsif item.url %}
                         <a href="{{ item.url }}" class="text-primary">[Access Report]</a>
+                        {% endif %}
                     </div>
                 </div>
             {% endfor %}
