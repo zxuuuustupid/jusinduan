@@ -5,7 +5,8 @@
       "WebFetch(domain:uestc-ia.github.io)",
       "Bash(gh repo:*)",
       "WebSearch",
-      "WebFetch(domain:music.163.com)"
+      "WebFetch(domain:music.163.com)",
+      "Bash(python:*)"
     ]
   }
 }
